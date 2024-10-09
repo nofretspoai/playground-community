@@ -1,3 +1,4 @@
+version: "3.3"
 services:
   krakend_ce:
     # The :watch image restarts the service automatically when the configuration files change.
