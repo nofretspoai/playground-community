@@ -31,6 +31,6 @@ scrape_configs:
     metrics_path: '/metrics'
     scrape_interval: 5s
     static_configs:
-    - targets: ['host.docker.internal:3100']
+    - targets: ['10.254.254.3:3100']
       labels:
         container: 'loki'
