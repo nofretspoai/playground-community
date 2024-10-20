@@ -26,8 +26,8 @@ services:
     # restart: unless-stopped
     # networks:
     #   - spring-cloud-network
-    # extra_hosts:
-    #   - host.docker.internal:host-gateway
+    extra_hosts:
+      - host.docker.internal:host-gateway
   grafana:
     image: grafana/grafana:9.1.2
     ports:
